@@ -1,0 +1,14 @@
+%% -*- mode: erlang -*-
+{application, oc_erchef_tests,
+ [
+  {description, "the oc_erchef_tests project"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { oc_erchef_tests_app, []}},
+  {env, []}
+ ]}.
+%% vim: set filetype=erlang tabstop=2
